@@ -1,0 +1,129 @@
+.lesson {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 500px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+}
+.lesson__words {
+  user-select: none;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 0px 0px 6px 0px;
+  span {
+    color: #dcdcdc;
+    font-size: 26px;
+    padding: 0px 7px 0px 7px;
+  }
+  #previous--correct {
+    color: #3cdb3c9a;
+  }
+  #previous--not-correct {
+    color: #db3c3c9a;
+  }
+}
+.lesson__input {
+  resize: none;
+  width: 100%;
+  max-height: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  color: #dcdcdc;
+  font-size: 26px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0px 0px 6px 0px;
+}
+.lesson__input:focus {
+  border: 1px #edb021 solid;
+}
+.statistic {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 6px 0px;
+  .statistic__row {
+    user-select: none;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .statistic__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      span {
+        margin: 5px 0px 0px 0px;
+      }
+      div {
+        padding: 5px;
+        border-bottom: 1px rgba(2, 23, 37, 0.658) solid;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 26px;
+        color: #dcdcdc;
+        span {
+          font-family: monospace;
+          margin: 0px 0px 0px 0px;
+        }
+      }
+    }
+  }
+}
+
+.test__row {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  .lesson__words {
+    margin: 0px 0px 0px 0px;
+    user-select: none;
+    width: 49.5%;
+    height: 100%;
+    padding: 15px 10px 15px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: auto;
+
+    span {
+      color: #dcdcdc;
+      font-size: 26px;
+      padding: 0px 5px 0px 5px;
+    }
+    #previous--correct {
+      color: #3cdb3c9a;
+    }
+    #previous--not-correct {
+      color: #db3c3c9a;
+    }
+  }
+  .lesson__input {
+    resize: none;
+    margin: 0px 0px 0px 0px;
+    width: 49.5%;
+    min-height: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    color: #dcdcdc;
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}

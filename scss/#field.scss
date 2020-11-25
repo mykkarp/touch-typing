@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+  width: 19px;
+  height: 8px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #edb021c5;
+  border-radius: 9em;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #825b00;
+}
+
+.field {
+  height: 100%;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 1px #edb021 solid;
+  .field__content {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introduction {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #dcdcdc;
+    .introduction__name {
+      margin: 170px 0px 20px 0px;
+      span {
+        font-size: 42px;
+      }
+    }
+    .introduction__group {
+      margin: 0px 0px 20px 0px;
+      span {
+        font-size: 32px;
+      }
+    }
+    .introduction__project-name {
+      span {
+        font-size: 32px;
+      }
+    }
+    img {
+      width: 200px;
+    }
+  }
+}
