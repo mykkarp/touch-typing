@@ -1,4 +1,4 @@
-# Touch-typing
+# Touch typing
 
 ### 🖥Deploy: https://urfeen.github.io/touch-typing/
 ___
