@@ -6,7 +6,7 @@ ___
 ### 🛠Functionality
 The web application is a window with 10 tabs:
 - First - article on the benefits of touch typing;
-- From 2 to 9 - lessons (1-8). The user must, without looking at the keyboard, enter a certain sequence of characters.
+- From 2 to 9 - lessons (1-8). The user must, without looking at the keyboard, enter a certain sequence of characters;
 - Last - touch typing test. The user must, without looking at the keyboard, enter a certain text.
 
 ___
