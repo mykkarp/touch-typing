@@ -1,6 +1,6 @@
 # Touch typing
 
-### 🖥Deploy: https://urfeen.github.io/touch-typing/
+### 🖥Deploy: https://mykkarp.github.io/touch-typing/
 ___
 
 ### 🛠Functionality
